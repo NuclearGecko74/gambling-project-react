@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(cd \"c:\\\\Users\\\\user\\\\Documents\\\\React\\\\gambling-project-react\\\\gambling-react\"; $job = Start-Job { cd \"c:\\\\Users\\\\user\\\\Documents\\\\React\\\\gambling-project-react\\\\gambling-react\"; npm run dev }; Start-Sleep 5; Receive-Job $job; Stop-Job $job; Remove-Job $job)"
-    ]
-  }
-}
